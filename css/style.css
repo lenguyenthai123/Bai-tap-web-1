@@ -164,10 +164,6 @@ html {
 
 }
 
-.row1 {
-
-    height: 65vh;
-}
 
 .row-11 {
     display: flex;
@@ -184,7 +180,7 @@ html {
 .board-border {
     /* background-color: #EF5741; */
     width: 93%;
-    height: 50vh;
+    height: 60vh;
     margin-left: 3rem;
     margin-bottom: 4rem;
     padding: 0.7rem;
