@@ -126,6 +126,7 @@ html {
     font-size: 1.8rem;
     font-family: "Gill Sans", sans-serif;
     font-weight: bold;
+    white-space: nowrap;
     width: 80%;
     padding-left: 1rem;
 
@@ -273,7 +274,7 @@ html {
 
 
 .row-12 {
-    margin-bottom: 4rem;
+    /* margin-top: 4rem; */
     /* display: flex;
     flex-direction: column; */
     /* background: url(ticket.jpg); */
