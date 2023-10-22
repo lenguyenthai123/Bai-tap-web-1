@@ -1,0 +1,787 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(232, 239, 240);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body-new {
+    width: 74%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-container {
+    background-color: rgb(232, 239, 240);
+
+}
+
+.header {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: red; */
+}
+
+.logo-dealers {
+    margin-top: 4.5%;
+    width: 65%;
+    height: 54%;
+}
+
+.navigate-bar {
+    margin-top: -0.2rem;
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+.navigate-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(63, 60, 60);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-right: 0.15rem dashed #333;
+    padding-right: 1rem;
+    margin: 2rem;
+    margin-right: 1.5rem;
+}
+
+.navigate-bonus {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(63, 60, 60);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-right: 0.15rem dashed #333;
+    padding-right: 1rem;
+    margin: 2rem;
+    margin-left: 0rem;
+    white-space: nowrap;
+    margin-right: 1.5rem;
+
+}
+
+.navigate-final {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(63, 60, 60);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-right: 0.15rem dashed #333;
+    padding-right: 1rem;
+    margin: 2rem;
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+    white-space: nowrap;
+
+}
+
+.navigate-img {
+
+    padding-right: 2.3rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+    align-self: center;
+
+}
+
+/* ----------------------------------EMAIL HEADER---------------------------------- */
+.email {
+    width: 100%;
+    height: 100%;
+    background: url(image/envelope.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-email {
+    font-size: 1.8rem;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    width: 80%;
+    padding-left: 1rem;
+
+}
+
+.input-email {
+    display: flex;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.input1 {
+    margin: 1rem;
+    height: 4rem;
+    flex: 3;
+
+}
+
+.button1 {
+    flex: 1.2;
+    margin-left: -0.5rem;
+    height: 3.8rem;
+    border-radius: 7px;
+    height: 4rem;
+    margin-top: 1rem;
+    background: linear-gradient(0deg, #8FA5B7, #dce4e9);
+    font-weight: 600;
+}
+
+/* ---------------------------BODY----------------------------- */
+
+.container {
+    margin-top: 2rem;
+    width: 93%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.row1 {
+
+    height: 65vh;
+}
+
+.row-11 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#title-body {
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin: 3rem;
+}
+
+.board-border {
+    /* background-color: #EF5741; */
+    width: 93%;
+    height: 100%;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+    padding: 0.7rem;
+    border: .2rem solid #e7e7e7;
+    border-radius: 2px;
+    /* Outline màu trắng để tạo khoảng trống */
+    display: flex;
+    box-sizing: border-box;
+}
+
+#board {
+    background-color: #EF5741;
+    width: 100%;
+    height: 100%;
+    /* Outline màu trắng để tạo khoảng trống */
+
+}
+
+#para-in-row-11 {
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #8f8a8a;
+}
+
+/* -----------------------TICKET--------------------- */
+
+.image-container {
+    margin-top: 2rem;
+    position: relative;
+    max-width: 100%;
+    /* Đảm bảo không vượt quá kích thước gốc */
+    overflow: hidden;
+    /* Ẩn phần nội dung vượt ra ngoài */
+}
+
+.img-ticket {
+    width: 100%;
+    /* Đảm bảo hình ảnh vừa với khung chứa */
+    height: auto;
+    /* Giữ tỷ lệ khung hình ban đầu */
+    display: block;
+    /* Đảm bảo không có khoảng trắng dưới hình ảnh */
+}
+
+.text-overlay {
+    position: absolute;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    /* Đưa văn bản vào giữa hình ảnh */
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.text-1 {
+    top: 9%;
+}
+
+.text-2 {
+    top: 23%
+}
+
+.text-3 {
+    top: 37%;
+}
+
+.text-4 {
+    top: 52%;
+}
+
+.text-5 {
+    width: 100%;
+    top: 69%;
+}
+
+.text-6 {
+    width: 100%;
+    top: 85%;
+
+}
+
+.cluster-facebook-tweet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.row-12 {
+    margin-bottom: 4rem;
+    /* display: flex;
+    flex-direction: column; */
+    /* background: url(ticket.jpg); */
+    /* background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom; */
+
+}
+
+.ticket-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-1 {
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #a09d9d;
+}
+
+.ticket-2 {
+    margin-top: 2.3rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.ticket-3 {
+    margin-top: 1rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #a09d9d;
+}
+
+.ticket-4 {
+    margin-top: -3rem;
+    font-size: 8rem;
+    font-weight: bold;
+    color: black;
+}
+
+.ticket-end {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ticket-end-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-5 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #a09d9d;
+}
+
+.ticket-6 {
+    margin-top: -1.4rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* -----------------------------ICON FACEBOOK AND TWEET------------------------- */
+
+.facebook-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 229, 243);
+    /* Màu nền của nút Facebook */
+    color: #fff;
+    /* Màu chữ trắng */
+    border: .1rem #55ACEE solid;
+    /* Loại bỏ viền nút */
+    border-radius: 4px;
+    /* Bo góc nút */
+    cursor: pointer;
+    height: 3.1rem;
+    padding: 0.8rem;
+    box-sizing: border-box;
+}
+
+.tweet {
+    background: linear-gradient(to top, rgb(217, 233, 245), rgb(255, 255, 255));
+}
+
+.facebook-button i {
+    margin-right: 5px;
+    /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+/* Sử dụng Font Awesome để thêm biểu tượng Facebook */
+.facebook-button i::before {
+    font-family: 'Font Awesome 5 Brands';
+    content: "\f39e";
+    /* Mã Unicode của biểu tượng Facebook */
+}
+
+.fa {
+    /* padding-top: 1.5rem; */
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2.2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+    /* opacity: 0.7; */
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.Text-icon {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    font-size: 1.35rem;
+    color: 3B5998;
+    font-weight: 600;
+}
+
+
+/* -------------------- ARROW BOX-------------------- */
+
+.box-arrow {
+    margin-left: 1rem;
+}
+
+.wrap {
+    /*   margin: 100px auto; */
+    width: 4rem;
+    /* Điều chỉnh chiều rộng */
+    height: 3.1rem;
+    /* Điều chỉnh chiều cao */
+    position: relative;
+}
+
+.arrow {
+    width: 1rem;
+    /* Điều chỉnh chiều rộng mũi tên */
+    height: 1rem;
+    /* Điều chỉnh chiều cao mũi tên */
+    border: 1px solid gray;
+    /* Điều chỉnh độ dày đường viền */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+    /* chia đôi*/
+    left: -4.25px;
+    /* chia đôi*/
+    z-index: 10;
+    border-radius: 2.5px;
+    /* Điều chỉnh độ cong góc */
+}
+
+.arrow-cover {
+    width: 1rem;
+    /* Điều chỉnh chiều rộng hộp mũi tên */
+    height: 1rem;
+    /* Điều chỉnh chiều cao hộp mũi tên */
+    border: 1px solid transparent;
+    /* chia đôi*/
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+    /* chia đôi*/
+    left: -3.25px;
+    /* chia đôi*/
+    z-index: 30;
+    background: white;
+    border-radius: 2.5px;
+    /* Điều chỉnh độ cong góc */
+    /* chia đôi*/
+}
+
+.box {
+    width: 4rem;
+    /* Điều chỉnh chiều rộng hộp */
+    height: 3.1rem;
+    /* Điều chỉnh chiều cao hộp */
+    background: white;
+    z-index: 20;
+    position: relative;
+    border: 1px solid gray;
+    /* Điều chỉnh độ dày đường viền */
+    /* chia đôi*/
+    background: white;
+    border-radius: 2.5px;
+    /* Điều chỉnh độ cong góc */
+    /* chia đôi*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.cluster-icon-and-box {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+/* -----------------------------------HANG 2----------------------------- */
+.text-21 {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    color: #777272;
+    font-weight: 495;
+    margin-bottom: 3rem;
+}
+
+p {
+    line-height: 2.7rem;
+}
+
+.row-22 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.button-22 {
+    width: 92%;
+    height: 8rem;
+    font-size: 2.7rem;
+    text-decoration: none;
+    color: rgb(93, 119, 48);
+    font-weight: 650;
+    background: linear-gradient(to top, rgb(147, 189, 75), rgb(233, 243, 206));
+    padding: 2rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(107, 151, 31) solid;
+}
+
+/* ------------------------HANG 3----------------------------- */
+.row-3 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0.5rem;
+
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* Tạo border với spacing tăng thêm */
+    background-image: linear-gradient(to right, rgb(235, 229, 229) 70%, rgba(190, 184, 184, 0) 0%),
+        linear-gradient(to right, rgb(235, 229, 229) 70%, rgba(190, 184, 184, 0) 0%);
+    background-position: top, bottom;
+    background-size: 1.5rem 0.2rem, 1.5rem 0.2rem;
+    background-repeat: repeat-x, repeat-x;
+
+
+}
+
+.img-logo {
+    width: fit-content;
+    height: fit-content;
+}
+
+/* ---------------------------------HANG 4------------------------------ */
+
+.row-4-boss {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+.row-4 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-image: linear-gradient(to top, rgb(235, 229, 229) 70%, rgba(190, 184, 184, 0) 0%);
+    background-position: right;
+    background-size: 0.19rem 1.2rem;
+    background-repeat: repeat-y;
+}
+
+.card-first-text {
+    margin-top: 0.75rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.cluster-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    background-image: linear-gradient(to right, rgb(235, 229, 229) 70%, rgba(190, 184, 184, 0) 0%);
+    background-position: bottom;
+    background-size: 1.2rem 0.2rem;
+    background-repeat: repeat-x;
+    padding-bottom: 3rem;
+}
+
+.card-background {
+    width: 100%;
+    height: 15rem;
+    background-color: #EF5741;
+}
+
+.card-info {
+    width: 100%;
+    /* height: 30%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-detail-1 {
+    margin-top: 1rem;
+    flex: 1;
+
+    background-image: linear-gradient(to top, rgb(235, 229, 229) 70%, rgba(190, 184, 184, 0) 0%);
+    background-position: right;
+    background-size: 0.19rem 1.2rem;
+    background-repeat: repeat-y;
+}
+
+.card-detail-2 {
+    margin-top: 1rem;
+
+    flex: 1;
+}
+
+.card-word {
+    text-align: center;
+    margin-bottom: -1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #a09d9d;
+}
+
+.card-price {
+    text-align: center;
+    margin-bottom: .5rem;
+    font-size: 1.7rem;
+    margin-top: .5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.card-final-layer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-final-text {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #726e6e;
+}
+
+.card-button {
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(93, 119, 48);
+    font-weight: 650;
+    background: linear-gradient(to top, rgb(147, 189, 75), rgb(233, 243, 206));
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(107, 151, 31) solid;
+    white-space: nowrap;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.color-text {
+    text-decoration: none;
+    color: black
+}
+
+.text-411 {
+    font-size: 1.4rem;
+    color: #777272;
+    font-weight: 495;
+    margin-bottom: 3rem;
+}
+
+.text-412 {
+    font-size: 1.4rem;
+    color: #777272;
+    font-weight: 495;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.remaining-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #e7e2e2;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #757373;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.background-422 {
+    margin-top: 2rem;
+    padding-top: 3rem;
+    background-image: linear-gradient(to right, rgb(235, 229, 229) 70%, rgba(190, 184, 184, 0) 0%);
+    background-position: top;
+    background-size: 1.2rem 0.2rem;
+    background-repeat: repeat-x;
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+
+    background-image: linear-gradient(to right, rgb(235, 229, 229) 70%, rgba(190, 184, 184, 0) 0%);
+    background-position: bottom;
+    background-size: 1.2rem 0.2rem;
+    background-repeat: repeat-x;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.row-4-last {
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+/* ---------------------------FINAL-PAGE--------------------------- */
+
+.final {
+    margin: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-413 {
+    font-size: 1.4rem;
+    color: #777272;
+    font-weight: 495;
+    line-height: normal;
+}
