@@ -563,6 +563,9 @@ p {
     justify-content: center;
     align-items: center;
     border: 1px rgb(107, 151, 31) solid;
+    white-space: nowrap;
+
+
 }
 
 /* ------------------------HANG 3----------------------------- */
