@@ -152,7 +152,7 @@ html {
 
 .input-email {
     position: absolute;
-    top: 65%;
+    top: 68%;
     left: 10%;
     display: flex;
     width: 80%;
@@ -163,6 +163,7 @@ html {
     margin: 0rem;
     height: 4rem;
     flex: 3;
+    border: .1rem #333 solid
 }
 
 .button1 {
@@ -564,7 +565,6 @@ p {
     align-items: center;
     border: 1px rgb(107, 151, 31) solid;
     white-space: nowrap;
-
 
 }
 
