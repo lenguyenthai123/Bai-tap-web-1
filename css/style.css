@@ -113,38 +113,32 @@ html {
 }
 
 /* ----------------------------------EMAIL HEADER---------------------------------- */
-.email {
-    /* padding-top: 3rem; */
 
-
+.email-container {
     position: relative;
     max-width: 100%;
     /* Đảm bảo không vượt quá kích thước gốc */
-    /* overflow: hidden; */
+    overflow: hidden;
     /* Ẩn phần nội dung vượt ra ngoài */
+}
+
+.email {
     width: 100%;
-    height: 100%;
-    background-image: url("../image/envelope.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    /* background-position: right; */
-    /* display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; 
-    align-content: center;
-    align-items: center;
-    justify-content: center; */
+    /* Đảm bảo hình ảnh vừa với khung chứa */
+    height: auto;
+    /* Giữ tỷ lệ khung hình ban đầu */
+    display: block;
+    /* Đảm bảo không có khoảng trắng dưới hình ảnh */
 }
 
 .row-header {
     background-color: rgb(232, 239, 240);
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
 }
 
 .font-email {
     position: absolute;
-    top: 40%;
+    top: 33%;
     left: 10%;
     /* transform: translate(-50%, -50%); */
 
@@ -158,7 +152,7 @@ html {
 
 .input-email {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 10%;
     display: flex;
     width: 80%;
@@ -166,19 +160,18 @@ html {
 }
 
 .input1 {
-    margin: 1rem;
+    margin: 0rem;
     height: 4rem;
     flex: 3;
-
 }
 
 .button1 {
     flex: 1.2;
-    margin-left: -0.5rem;
+    margin-left: 0.5rem;
     height: 3.8rem;
     border-radius: 7px;
     height: 4rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     background: linear-gradient(0deg, #8FA5B7, #dce4e9);
     font-weight: 600;
 }
